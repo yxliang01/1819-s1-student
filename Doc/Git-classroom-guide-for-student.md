@@ -27,6 +27,7 @@ Below will describe the simplified procedure of how to use git classroom to do l
 * At the lab, go to your unix home directory, and run below command to download scripts for setting up of local assignment repository, and submit the work back to git:
     ```sh
     cd ~
+	rm -rf ~/1819-s1-student
     git clone https://github.com/nus-cs1010/1819-s1-student.git
     ```
 
