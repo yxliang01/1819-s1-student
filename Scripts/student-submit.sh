@@ -3,11 +3,11 @@
 #get reponame from env variable
 gitorg="nus-cs1010-1819-s1"
 assignment="test-assignment-1819-2"
-reponame="$assignment-$gituser"
+reponame="$assignment-$GIT_USER"
 
 #add commit and push
 cd ~/$reponame
-git config user.name $gituser
+git config user.name $GIT_USER
 git add -A
 git commit -m "student submission"
 git push

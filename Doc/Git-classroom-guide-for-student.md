@@ -14,15 +14,15 @@ Below will describe the simplified procedure of how to use git classroom to do l
 # Procedure to work on an assignment
 * TA will send invitation link to an assignment/lab before lab, accept it and ensure a repository is cloned under the class organization for you. This repository will have all necessary instructions/skeleton codes/sample testcases, etc for corresponding assignment. 
 
-* In your first lab session, or if you find scripts not working due to related error, insert a line "export gituser=xxxx" where xxxx is your git hub account name into ~/.bashrc. Steps are:
+* In your first lab session, or if you find scripts not working due to related error, insert a line "export GIT_USER=xxxx" where xxxx is your git hub account name into ~/.bashrc. Steps are:
     1. execute below command to open the file in vim
         ```sh
         vim ~/.bashrc
         ```
     2. prese i in keyboard to enable edit mode
     3. press PageDown until you are at last line. Enter to a new line
-    4. Key in "export gituser=xxxx" without quote and extra space
-    5. Prese Esc, then enter ":x" without quote, presee enter
+    4. Key in "export GIT_USER=xxxx" without quote and extra space
+    5. Prese Esc, then enter ":x" without quote, press enter
     
 * At the lab, go to your unix home directory, and run below command to download scripts for setting up of local assignment repository, and submit the work back to git:
     ```sh
