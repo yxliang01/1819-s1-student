@@ -23,7 +23,7 @@ Below will describe the simplified procedure of how to use git classroom to do l
     3. press PageDown until you are at last line. Enter to a new line
     4. Key in "export GIT_USER=xxxx" without quote and extra space
     5. Prese Esc, then enter ":x" without quote, press enter
-    6. Restart unix kernel
+    6. Restart the `bash` or type `bash` to start a new shell in order to make the change effective
     
 * At the lab, go to your unix home directory, and run below command to download scripts for setting up of local assignment repository, and submit the work back to git:
     ```sh
